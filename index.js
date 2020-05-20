@@ -1,3 +1,4 @@
+import "./global.js";
 import UIButton from "./UIButton";
 import UIText from "./UIText";
 import UIListItem from "./UIListItem";
