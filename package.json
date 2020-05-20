@@ -1,1 +1,5 @@
-{}
+{
+  "dependencies": {
+    "react-native-eva-icons": "^1.3.1"
+  }
+}
