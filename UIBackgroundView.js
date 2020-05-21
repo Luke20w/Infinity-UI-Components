@@ -12,6 +12,7 @@ export default function UIBackgroundView(props) {
         backgroundColor: global.dark
           ? global.backgroundColor
           : global.lightBackgroundColor,
+        alignItems: "center",
       }}
     >
       <ScrollView
