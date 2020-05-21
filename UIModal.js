@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Modal, View, TouchableOpacity } from "react-native";
 import UIText from "./UIText";
 import UIDivider from "./UIDivider";
-import "./global.js";
 
 export default function UIModal(props) {
   return (

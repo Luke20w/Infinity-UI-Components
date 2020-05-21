@@ -2,7 +2,6 @@ import React from "react";
 import { View, TouchableOpacity, Image } from "react-native";
 import UIText from "./UIText";
 import { Icon } from "react-native-eva-icons";
-import "./global.js";
 
 export default function UIListItem(props) {
   const renderLeftItem = () =>

@@ -3,7 +3,6 @@ import { View, TouchableOpacity } from "react-native";
 import { Icon } from "react-native-eva-icons";
 import UIText from "./UIText";
 import UIDivider from "./UIDivider";
-import "./global.js";
 
 export default function UIHeader(props) {
   const renderTitle = () =>

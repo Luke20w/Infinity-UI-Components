@@ -1,6 +1,5 @@
 import React from "react";
 import { Text, TouchableOpacity } from "react-native";
-import "./global.js";
 
 export default function UIText(props) {
   return (

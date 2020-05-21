@@ -2,7 +2,6 @@ import React from "react";
 import { TouchableOpacity, Image, View } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import UIText from "./UIText";
-import "./global.js";
 
 export default function UICard(props) {
   const renderDate = () =>

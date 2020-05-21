@@ -2,7 +2,6 @@ import React from "react";
 import { Text, View, TouchableOpacity } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import { Icon } from "react-native-eva-icons";
-import "./global.js";
 
 export default function UIButton(props) {
   const renderCover = () =>

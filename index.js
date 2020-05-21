@@ -11,12 +11,7 @@ import UIBackgroundView from "./UIBackgroundView";
 import UIHeader from "./UIHeader";
 import UIScrollView from "./UIScrollView";
 
-import { useFonts } from "@use-expo/font";
-
-let [fontsLoaded] = useFonts({
-  "Nunito-Regular": require("./fonts/Nunito-Regular.ttf"),
-  "Nunito-Bold": require("./fonts/Nunito-Bold.ttf"),
-});
+import "./global.js";
 
 export {
   UIButton,

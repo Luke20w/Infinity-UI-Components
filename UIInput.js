@@ -3,7 +3,6 @@ import { TextInput, View } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import { Icon } from "react-native-eva-icons";
 import UIText from "./UIText";
-import "./global.js";
 
 export default function UIInput(props) {
   const [focussed, setFocussed] = useState(false);

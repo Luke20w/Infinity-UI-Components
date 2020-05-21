@@ -1,6 +1,5 @@
 import React from "react";
 import { View } from "react-native";
-import "./global.js";
 
 export default function UIBackgroundView(props) {
   return (

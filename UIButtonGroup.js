@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { View, TouchableOpacity } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import UIText from "./UIText";
-import "./global.js";
 
 export default function UIButtonGroup(props) {
   const [selectedIndex, setSelectedIndex] = useState(props.initIndex || 0);
