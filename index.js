@@ -1,4 +1,3 @@
-import "./global.js";
 import UIButton from "./UIButton";
 import UIText from "./UIText";
 import UIListItem from "./UIListItem";
@@ -11,6 +10,13 @@ import UICircleButton from "./UICircleButton";
 import UIBackgroundView from "./UIBackgroundView";
 import UIHeader from "./UIHeader";
 import UIScrollView from "./UIScrollView";
+
+import { useFonts } from "@use-expo/font";
+
+let [fontsLoaded] = useFonts({
+  "Nunito-Regular": require("./fonts/Nunito-Regular.ttf"),
+  "Nunito-Bold": require("./fonts/Nunito-Bold.ttf"),
+});
 
 export {
   UIButton,

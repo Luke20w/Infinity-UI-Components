@@ -2,6 +2,7 @@ import React from "react";
 import { View, TouchableOpacity } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import { Icon } from "react-native-eva-icons";
+import "./global.js";
 
 export default function UICircleButton(props) {
   return (
