@@ -1,16 +1,3 @@
-// Global Variables
-global.backgroundColor = "#03003b";
-global.lightBackgroundColor = "white";
-global.dark = false;
-
-global.gradientColor1 = "#7300CD";
-global.gradientColor2 = "#00F0FF";
-global.accentColor = "#2200ff";
-
-global.fontFamily = "Nunito-Regular";
-global.boldFontFamily = "Nunito-Bold";
-
-// Component Imports
 import UIButton from "./UIButton";
 import UIText from "./UIText";
 import UIListItem from "./UIListItem";
@@ -24,7 +11,6 @@ import UIBackgroundView from "./UIBackgroundView";
 import UIHeader from "./UIHeader";
 import UIScrollView from "./UIScrollView";
 
-// Export for external use
 export {
   UIButton,
   UIText,

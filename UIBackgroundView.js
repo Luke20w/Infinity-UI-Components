@@ -1,5 +1,5 @@
 import React from "react";
-import { View } from "react-native";
+import { View, ScrollView } from "react-native";
 
 export default function UIBackgroundView(props) {
   return (
@@ -14,7 +14,21 @@ export default function UIBackgroundView(props) {
           : global.lightBackgroundColor,
       }}
     >
-      {props.children}
+      <ScrollView
+        style={{
+          width: "100%",
+          alignSelf: "center",
+        }}
+        contentContainerStyle={{
+          flexGrow: 1,
+          alignItems: "center",
+          paddingTop: 20,
+          paddingBottom: 30,
+        }}
+        showsVerticalScrollIndicator={false}
+      >
+        {props.children}
+      </ScrollView>
     </View>
   );
 }
