@@ -9,6 +9,7 @@ import UIModal from "./UIModal";
 import UICircleButton from "./UICircleButton";
 import UIBackgroundView from "./UIBackgroundView";
 import UIHeader from "./UIHeader";
+import UIScrollView from "./UIScrollView";
 
 export {
   UIButton,
@@ -22,4 +23,5 @@ export {
   UICircleButton,
   UIBackgroundView,
   UIHeader,
+  UIScrollView,
 };
