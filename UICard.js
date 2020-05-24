@@ -51,7 +51,7 @@ export default function UICard(props) {
         ]}
       >
         {renderImage()}
-        <View>
+        <View style={props.textViewStyle}>
           <UIText text={props.title} type="title" color="white" />
           {renderSubtitle()}
         </View>
