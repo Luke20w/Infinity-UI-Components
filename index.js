@@ -10,6 +10,7 @@ import UICircleButton from "./UICircleButton";
 import UIBackgroundView from "./UIBackgroundView";
 import UIHeader from "./UIHeader";
 import UIScrollView from "./UIScrollView";
+import UINumberPicker from "./UINumberPicker";
 
 export {
   UIButton,
@@ -24,4 +25,5 @@ export {
   UIBackgroundView,
   UIHeader,
   UIScrollView,
+  UINumberPicker,
 };

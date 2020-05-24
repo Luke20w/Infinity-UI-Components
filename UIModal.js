@@ -10,7 +10,12 @@ export default function UIModal(props) {
         flex: 1,
       }}
     >
-      <Modal animationType="fade" transparent visible={props.visible}>
+      <Modal
+        animationType="fade"
+        transparent
+        visible={props.visible}
+        supportedOrientations={["portrait", "landscape"]}
+      >
         <View
           style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
         >
